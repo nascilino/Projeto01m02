@@ -1,0 +1,48 @@
+#principal {
+  text-align: center;
+  color: cornsilk;
+}
+body {
+  background-image: url(fundocentro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div#img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  border:0
+  padding: 5px;
+}
+
+div#img img {
+  width: 500px;
+  height: 500px;
+  overflow: hidden; /* Faz o div não aumentar a altura por causa da imagem */
+}
+section#infos div#txt {
+  padding: 5rem;
+  color: cornsilk;
+  text-align: center;
+  font-size:25px
+}
+section{
+  display: flex;
+  justify-content: flex-start;
+  padding: 8rem;
+  align-items: center;
+  gap: 10px;
+  gap: 10px 20px
+}
+#texto{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+#alterar{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
